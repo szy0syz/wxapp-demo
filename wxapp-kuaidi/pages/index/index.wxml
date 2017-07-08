@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view class="container">
+  <view  bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+  <view class="express">
+    <input placeholder="请输入运单号" auto-focus bindinput="getExpressNu" />
+    <button size="default" type="default" bindtap="getExpressInfo"> 查询 </button>
+  </view>
+  <scroll-view class="expressDisplay">
+    <view wx:for="{{expressInfo.showapi_res_body.data}}" wx:key="*this">
+      <view> {{item.time}} -- {{item.context}} </view>
+    </view>
+  </scroll-view>
+</view>

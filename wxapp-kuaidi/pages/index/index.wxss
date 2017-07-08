@@ -1,0 +1,39 @@
+/**index.wxss**/
+.userinfo {
+  position: absolute;
+  top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.express {
+  margin-top: 40px;
+  width: 90%;
+}
+
+.express input{
+  border: 1px solid #aaa;
+  padding: 5px;
+}
+
+.express button{
+  margin-top: 18px;
+  width: 40%;
+}
+
+.expressDisplay{
+  width: 100%;
+}
+
