@@ -1,0 +1,5 @@
+<view class="container">
+  <input placeholder="用户名" auto-focus bindinput="getUsername" />
+  <input placeholder="密  码" auto-focus bindinput="getPassword" />
+  <button size="default" type="default" bindtap="handleClick"> 登  录 </button>
+</view>
