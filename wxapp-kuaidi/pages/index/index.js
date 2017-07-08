@@ -37,7 +37,6 @@ Page({
         'Authorization': 'APPCODE 1e37be95b6254fd184067e20b87d1381'
       },
       success: function (res) {
-        console.log(res.data)
         that.setData({expressInfo: res.data})
       }
     })
