@@ -6,7 +6,5 @@ App({
 
   globalData: {
     userInfo: null
-  },
-  
-  "debug": true
+  }
 })
