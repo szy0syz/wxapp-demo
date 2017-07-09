@@ -7,16 +7,20 @@ Page({
   },
 
   onLoad: function () {
-    
-  },
-  onShow: function () {
-    console.log('onShow')
+    console.log('login page -> onLoad')
     if (app.globalData.userInfo === null) {
-      wx.navigateTo({
+      wx.redirectTo({
         url: '../login/login',
       })
     } else {
       this.data.userInfo = app.globalData.userInfo;
     }
+  },
+  onReady: function () {
+    console.log('login page -> onReady')
+  },
+  onShow: function () {
+    console.log('login page -> onShow')
+    
   }
 })

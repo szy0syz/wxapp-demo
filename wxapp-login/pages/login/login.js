@@ -25,7 +25,7 @@ Page({
       password: this.data.password
     }
     console.log('longin.....')
-    wx.navigateTo({
+    wx.switchTab({
       url: '../user/user',
     })
   }
