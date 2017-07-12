@@ -3,8 +3,17 @@
 var app = getApp()
 Page({
   data: {
-    motto: 'Hello World',
-    userInfo: {}
+    indicatorDots: true,
+    autoplay: true,
+    interval: 4000,
+    duration: 1000,
+    swipers: [],
+    news: [],
+    imgUrls:[
+      '/images/s01.jpg',
+      '/images/s02.jpg',
+      '/images/s03.jpg'
+    ]
   },
   //事件处理函数
   bindViewTap: function() {

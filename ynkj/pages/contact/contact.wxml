@@ -1,3 +1,11 @@
-<view class="container">
-  <map id="map" longitude="113.324520" latitude="23.099994" scale="14" controls="{{controls}}" bindcontroltap="controltap" markers="{{markers}}" bindmarkertap="markertap" polyline="{{polyline}}" bindregionchange="regionchange" show-location style="width: 100%; height: 300px;"></map>
+<view>
+  <view>
+    <map style="width: 100%; height: 300px;" latitude="{{latitude}}" longitude="{{longitude}}" markers="{{markers}}" covers="{{covers}}">
+      </map>
+  </view>
+  <view>
+    <text>\n公司地址：云南省昆明市盘龙区万宏路云农大厦\n
+    公司电话：0871-65654445\n
+    公司传真：0871-65654445</text>  
+  </view>
 </view>
