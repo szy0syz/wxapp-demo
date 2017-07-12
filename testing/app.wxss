@@ -1,0 +1,13 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  width: 100%;
+} 
+
+.container .selection{
+
+} 
+
+.container .selection .slide-image{
+  width: 100%;
+} 

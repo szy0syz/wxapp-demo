@@ -1,0 +1,81 @@
+/**index.wxss**/
+.swiper{
+  height: 100%;
+  width: 100%;
+}
+
+.swiper .slide-image{
+  width: 100%;
+  height: 100%;
+}
+
+.head{
+  border-left-width: 2px;
+  border-left-style: solid;
+  border-left-color: lightgreen;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.text-all{
+  color: greenyellow;
+  font-size: 24rpx;
+}
+
+.content{
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+.content .content-item{
+  height: 260rpx;
+  width: 45%;
+  background: gainsboro;
+  margin: 8rpx;
+  position: relative;
+}
+
+.content .content-item image{
+  height: 100%;
+  width: 100%;
+}
+
+.content .content-item .content-item-text{
+  position: absolute;
+  font-size: 26rpx;
+  bottom: 0;
+  color: #fff;
+  background: -webkit-linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2));
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2));
+  height: 28rpx;
+  width: 100%;
+}
+
+.list{
+  height: 520rpx;
+  width: 100%;
+}
+
+.list .list-item{
+  height: 100%;
+  width: 100%;
+}
+
+.list .list-item .list-item-image{
+  height: 360rpx;
+  width: 100%;
+}
+
+.list .list-item .list-item-image image{
+  height: 360rpx;
+  width: 100%;
+}
+
+.list-item-text{
+  height: 160rpx;
+  width: 100%;
+  background: lightgray;
+}
