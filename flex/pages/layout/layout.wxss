@@ -1,0 +1,17 @@
+/* pages/layout/layout.wxss */
+
+.container{
+  /* height: 100%;
+  width: 100%; */
+  font-size: 18px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border: 1rpx dashed red;
+}
+
+.container .item{
+  height: 110rpx;
+  width: 110rpx;
+  border: 2rpx solid #000;
+}
