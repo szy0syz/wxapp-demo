@@ -67,9 +67,10 @@
 .list .list-item .list-item-image{
   height: 360rpx;
   width: 100%;
+  position: relative;
 }
 
-.list .list-item .list-item-image image{
+.list .list-item .list-item-image .list-item-image-img{
   height: 360rpx;
   width: 100%;
 }
@@ -79,3 +80,13 @@
   width: 100%;
   background: lightgray;
 }
+
+.list .avatar{
+  height: 80rpx;
+  width: 80rpx;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -40rpx;
+  right: 20rpx;
+}
+

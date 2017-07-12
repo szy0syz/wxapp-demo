@@ -36,7 +36,8 @@
     <view class="list">
       <view class="list-item" wx:for="{{listItems}}">
         <view class="list-item-image">
-         <image src="{{item.img}}"></image>
+         <image src="{{item.img}}" class="list-item-image-img"></image>
+         <image src="{{item.avatar}}" class="avatar"></image>
         </view>
         <view class="list-item-text">
         <text>{{item.title}} \n {{item.desc}}</text>
