@@ -40,7 +40,12 @@
          <image src="{{item.avatar}}" class="avatar"></image>
         </view>
         <view class="list-item-text">
-        <text>{{item.title}} \n {{item.desc}}</text>
+          <view class="list-item-text-title">
+            {{item.title}}
+          </view>
+          <view class="list-item-text-desc">
+            {{item.desc}}
+          </view>
         </view>
       </view>
     </view>

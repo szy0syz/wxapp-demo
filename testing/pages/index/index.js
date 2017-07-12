@@ -19,12 +19,12 @@ Page({
       { title: '我是第四个图的标题', img: '/images/sj04.jpg' }
     ],
     listItems: [
-      { title: '我是第一个图的标题', img: '/images/l01.jpg', desc: '我是超级详细的描述文本字符串哈哈哈哈哈', avatar: '/images/avatar1.jpeg' },
-      { title: '我是第二个图的标题', img: '/images/l02.jpg', desc: '我是超级详细的描述文本字符串哈哈哈哈哈', avatar: '/images/avatar2.jpeg' },
-      { title: '我是第三个图的标题', img: '/images/l03.jpg', desc: '我是超级详细的描述文本字符串哈哈哈哈哈', avatar: '/images/avatar3.jpeg' },
-      { title: '我是第四个图的标题', img: '/images/l01.jpg', desc: '我是超级详细的描述文本字符串哈哈哈哈哈', avatar: '/images/avatar1.jpeg' },
-      { title: '我是第五个图的标题', img: '/images/l02.jpg', desc: '我是超级详细的描述文本字符串哈哈哈哈哈', avatar: '/images/avatar2.jpeg' },
-      { title: '我是第六个图的标题', img: '/images/l03.jpg', desc: '我是超级详细的描述文本字符串哈哈哈哈哈', avatar: '/images/avatar3.jpeg' }
+      { title: '我是第一个图的标题', img: '/images/l01.jpg', desc: '我是超级详细的描述文本字符串,今天最新的发布的新快旗舰级，真的很奇迹啊，你真的需要买一台啊，不买吃亏的啊，快点来买啊，真的很好啊。', avatar: '/images/avatar1.jpeg' },
+      { title: '我是第二个图的标题', img: '/images/l02.jpg', desc: '我是超级详细的描述文本字符串,今天最新的发布的新快旗舰级，真的很奇迹啊，你真的需要买一台啊，不买吃亏的啊，快点来买啊，真的很好啊。', avatar: '/images/avatar2.jpeg' },
+      { title: '我是第三个图的标题', img: '/images/l03.jpg', desc: '我是超级详细的描述文本字符串,今天最新的发布的新快旗舰级，真的很奇迹啊，你真的需要买一台啊，不买吃亏的啊，快点来买啊，真的很好啊。', avatar: '/images/avatar3.jpeg' },
+      { title: '我是第四个图的标题', img: '/images/l01.jpg', desc: '我是超级详细的描述文本字符串,今天最新的发布的新快旗舰级，真的很奇迹啊，你真的需要买一台啊，不买吃亏的啊，快点来买啊，真的很好啊。', avatar: '/images/avatar1.jpeg' },
+      { title: '我是第五个图的标题', img: '/images/l02.jpg', desc: '我是超级详细的描述文本字符串,今天最新的发布的新快旗舰级，真的很奇迹啊，你真的需要买一台啊，不买吃亏的啊，快点来买啊，真的很好啊。', avatar: '/images/avatar2.jpeg' },
+      { title: '我是第六个图的标题', img: '/images/l03.jpg', desc: '我是超级详细的描述文本字符串,今天最新的发布的新快旗舰级，真的很奇迹啊，你真的需要买一台啊，不买吃亏的啊，快点来买啊，真的很好啊。', avatar: '/images/avatar3.jpeg' }
     ]
   },
 

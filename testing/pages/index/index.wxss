@@ -1,4 +1,10 @@
 /**index.wxss**/
+
+.selection{
+  border-bottom: 3px solid #ddd;
+
+}
+
 .swiper{
   height: 100%;
   width: 100%;
@@ -15,7 +21,12 @@
   border-left-color: lightgreen;
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
+  height: 60rpx;
+  padding-left: 10rpx;
+  padding-right: 10rpx;
+  margin-top: 20rpx;
+  margin-bottom: 10rpx;
 }
 
 .text-all{
@@ -77,8 +88,20 @@
 
 .list-item-text{
   height: 160rpx;
-  width: 100%;
-  background: lightgray;
+  width: 94%;
+  margin-top: 22rpx;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+/* .list-item-text-title{
+
+} */
+
+.list-item-text-desc{
+  font-size: 12px;
+  color: lightgray;
+  margin-top: 18rpx;
 }
 
 .list .avatar{
