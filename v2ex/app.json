@@ -1,9 +1,9 @@
 {
   "pages":[
+    "pages/detail/detail",
     "pages/index/index",
     "pages/user/user",
-    "pages/topic/topic",
-    "pages/detail/detail"
+    "pages/topic/topic"
   ],
   "window":{
     "backgroundTextStyle":"light",

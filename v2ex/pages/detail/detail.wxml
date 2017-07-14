@@ -1,0 +1,26 @@
+<view class="container">
+  <view class="topic">
+    <text>标题</text>
+    <view class="userInfo">
+      <image src="http://v2ex.assets.uxengine.net/navatar/6e27/13a6/557_normal.png?m=1473710080"></image>
+      <text>username</text>
+    </view>
+    <text>标题</text>
+    <view class="footerInfo">
+      <text>3条回复</text>
+      <text>节点名</text>
+    </view>
+  </view>
+
+  <view class="replies">
+    <view class="replies_info">
+      <view class="userInfo">
+        <image src="http://v2ex.assets.uxengine.net/navatar/6e27/13a6/557_normal.png?m=1473710080"></image>
+        <text>username</text>
+      </view>
+      <view class="rely_detal">
+        <text>我是上海安徽安徽傻大坏蛋爱仕达盎司恶趣味完全而我却而我却恶趣味函数爱迪生打算</text>
+      </view>
+    </view>
+  </view>
+</view>
