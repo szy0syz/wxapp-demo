@@ -4,10 +4,8 @@
 
 .topic {
   position: relative;
-  height: 25%;
-  /* width: 100%; */
-  border: 1px solid #000;
   border-bottom: 6px solid #EFEFF3;
+  padding: 5px 6px 5px 6px;
 }
 
 .userInfo {
@@ -21,15 +19,14 @@
   width: 32px;
 }
 
-.userInfo text{
+.userInfo:nth-child(2){
   font-size: 15px;
   color: #576b95;
   margin-left: 5px;
 }
 
 .footerInfo{
-  /* position: absolute;
-  bottom: 1px; */
+  margin-top: 6px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -41,9 +38,30 @@
   /* border: 1px solid #000;   */
 }
 
-.replies_info{
-  height: 120px;
+.title{
+  font-size: 16px;
+  color: #353535;
+}
 
-  /* border: 1px solid red; */
+.replies_info{
+  padding: 5px 6px 5px 6px;
   border-bottom: 4px solid #EFEFF3;
+}
+
+.content{
+  font-size: 14px;
+  color: #353535;
+}
+
+.rely_detal{
+  margin-top: 4px;
+  font-size: 14px;
+  color: #888888;
+}
+
+.topic_created{
+  margin-left: 6px;
+  margin-top: 2px;
+  font-size: 12px;
+  color: #888888;
 }

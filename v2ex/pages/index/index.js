@@ -1,7 +1,6 @@
 //index.js
 //获取应用实例
 var app = getApp()
-
 Page({
   data: {
     
@@ -291,4 +290,9 @@ Page({
     var _this = this;
 
   },
+  toDetail: function (e) {
+    wx.navigateTo({
+      url: '../detail/detail?id=' + e.currentTarget.id,
+    })
+  }
 })

@@ -560,5 +560,10 @@ Page({
    */
   onShareAppMessage: function () {
   
+  },
+  toDetail: function (e) {
+    wx.navigateTo({
+      url: '../detail/detail?id=' + e.currentTarget.id,
+    })
   }
 })

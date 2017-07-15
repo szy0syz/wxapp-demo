@@ -1,17 +1,38 @@
-Page({
 
+var ft = require("../../utils/util");
+
+Page({
+//https://www.v2ex.com/api/topics/show.json?id=528
+//https://www.v2ex.com/api/replies/show.json?topic_id=528
   /**
    * 页面的初始数据
    */
   data: {
-    
+    topic_id: null,
+    topic_data: null,
+    topic_relies: null,
+    topic_created: ""
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    
+    var _this = this
+    this.setData({ topic_id: options.id})
+    wx.request({
+      url: 'https://www.v2ex.com/api/topics/show.json?id=' + this.data.topic_id,
+      success: function (res) {
+        _this.setData({ topic_data: res.data[0]})
+        _this.setData({ topic_created: ft.formatTime(new Date(res.data[0].created))})
+      }
+    })
+    wx.request({
+      url: 'https://www.v2ex.com/api/replies/show.json?topic_id=' + this.data.topic_id,
+      success: function (res) {
+        _this.setData({ topic_relies: res.data })
+      }
+    })
   },
 
   /**

@@ -1,26 +1,34 @@
 <view class="container">
   <view class="topic">
-    <text>标题</text>
+    <view class="title">
+      <text>{{topic_data.title}}</text>
+    </view>
     <view class="userInfo">
       <image src="http://v2ex.assets.uxengine.net/navatar/6e27/13a6/557_normal.png?m=1473710080"></image>
-      <text>username</text>
+      <text>{{topic_data.member.username}}</text>
+      <text class="topic_created">  于 {{topic_created}} 创建</text> 
     </view>
-    <text>标题</text>
+    <view class="content">
+      <text>{{topic_data.content}}</text>
+    </view>
     <view class="footerInfo">
-      <text>3条回复</text>
-      <text>节点名</text>
+      <text>{{topic_data.replies}}条回复</text>
+      <text>{{topic_data.node.title}}</text>
     </view>
   </view>
 
-  <view class="replies">
-    <view class="replies_info">
-      <view class="userInfo">
-        <image src="http://v2ex.assets.uxengine.net/navatar/6e27/13a6/557_normal.png?m=1473710080"></image>
-        <text>username</text>
-      </view>
-      <view class="rely_detal">
-        <text>我是上海安徽安徽傻大坏蛋爱仕达盎司恶趣味完全而我却而我却恶趣味函数爱迪生打算</text>
+  <scroll-view wx:for="{{topic_relies}}">
+    <view class="replies">
+      <view class="replies_info">
+        <view class="userInfo">
+          <image src="{{item.member.avatar_normal}}"></image>
+          <text>{{item.member.username}}</text>
+        </view>
+        <view class="rely_detal">
+          <text>{{item.content}}</text>
+        </view>
       </view>
     </view>
-  </view>
+  </scroll-view>
+
 </view>
