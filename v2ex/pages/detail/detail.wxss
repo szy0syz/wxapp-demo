@@ -12,21 +12,22 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin: 5px 0 10px 0;
 }
 
 .userInfo image {
-  height: 32px;
-  width: 32px;
+  height: 30px;
+  width: 30px;
 }
 
-.userInfo:nth-child(2){
-  font-size: 15px;
+.userInfo .userInfo_username{
+  font-size: 14px;
   color: #576b95;
   margin-left: 5px;
 }
 
 .footerInfo{
-  margin-top: 6px;
+  margin-top: 14px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -35,7 +36,6 @@
   line-height: 16px;
   font-size: 13px;
   color: #888888;
-  /* border: 1px solid #000;   */
 }
 
 .title{

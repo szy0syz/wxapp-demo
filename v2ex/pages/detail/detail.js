@@ -24,12 +24,15 @@ Page({
       url: 'https://www.v2ex.com/api/topics/show.json?id=' + this.data.topic_id,
       success: function (res) {
         _this.setData({ topic_data: res.data[0]})
-        _this.setData({ topic_created: ft.formatTime(new Date(res.data[0].created))})
+        _this.setData({ topic_created: ft.formatUTC(new Date(res.data[0].created))})
       }
     })
     wx.request({
       url: 'https://www.v2ex.com/api/replies/show.json?topic_id=' + this.data.topic_id,
       success: function (res) {
+        for (var i = 0, len = res.data.length; i<len; i++) {
+          res.data[i].created = ft.formatUTC(res.data[i].created)
+        }
         _this.setData({ topic_relies: res.data })
       }
     })

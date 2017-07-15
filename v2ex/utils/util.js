@@ -11,11 +11,16 @@ function formatTime(date) {
   return [year, month, day].map(formatNumber).join('/') + ' ' + [hour, minute, second].map(formatNumber).join(':')
 }
 
+function formatUTC(num) {
+  return new Date(num * 1000).toLocaleString()
+}
+
 function formatNumber(n) {
   n = n.toString()
   return n[1] ? n : '0' + n
 }
 
 module.exports = {
-  formatTime: formatTime
+  formatTime: formatTime,
+  formatUTC: formatUTC
 }

@@ -4,8 +4,8 @@
       <text>{{topic_data.title}}</text>
     </view>
     <view class="userInfo">
-      <image src="http://v2ex.assets.uxengine.net/navatar/6e27/13a6/557_normal.png?m=1473710080"></image>
-      <text>{{topic_data.member.username}}</text>
+      <image src="{{topic_data.member.avatar_normal}}"></image>
+      <text class="userInfo_username">{{topic_data.member.username}}</text>
       <text class="topic_created">  于 {{topic_created}} 创建</text> 
     </view>
     <view class="content">
@@ -22,7 +22,8 @@
       <view class="replies_info">
         <view class="userInfo">
           <image src="{{item.member.avatar_normal}}"></image>
-          <text>{{item.member.username}}</text>
+          <text class="userInfo_username">{{item.member.username}}</text>
+          <text class="topic_created">  于 {{item.created}} 回复</text> 
         </view>
         <view class="rely_detal">
           <text>{{item.content}}</text>

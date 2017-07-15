@@ -24,6 +24,10 @@ App({
   },
 
   globalData: {
-    userInfo: null
+    default: {
+      username: "szy0syz"
+    },
+    userInfo: {
+    }
   }
 })
